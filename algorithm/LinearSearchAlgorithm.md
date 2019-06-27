@@ -68,9 +68,9 @@ $list = [1, 50, 30, 20, 5, 40, 10,];
 $searchValue = rand(0, 50);
 
 if (hasSearchValueByLinearSearchAlgorithm($list, $searchValue)) {
-    echo " 찾는 값이 있어요!";
+    echo "값이 존재합니다!";
 } else {
-    echo "찾는 값이 없어요!";
+    echo "값이 존재하지 않습니다!";
 }
 ?>
 ```
